@@ -17,12 +17,14 @@ public class DialoogTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("Dialoog1 van Henkie");
             uiDialoog.SetActive(true);
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        Debug.Log("Geen dialoog");
         uiDialoog.SetActive(false);
     }
 

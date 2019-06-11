@@ -5,7 +5,7 @@ using UnityEngine;
 public class Choice : MonoBehaviour
 {
 
-    void Update()
+   /* void Update()
     {
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -22,5 +22,5 @@ public class Choice : MonoBehaviour
 
         }
 
-    }
+    }*/
 }

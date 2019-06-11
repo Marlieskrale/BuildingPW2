@@ -5,7 +5,7 @@ using UnityEngine;
 public class EndOfScreen : MonoBehaviour
 {
 
-    void Update()
+    /*void Update()
     {
         transform.Translate(movement * speed * Time.deltaTime, Space.Self);
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, MIN_X, MAX_X), Mathf.Clamp(transform.position.y, MIN_Y, MAX_Y), Mathf.Clamp(transform.position.z, MIN_Z, MAX_Z));
@@ -49,6 +49,6 @@ public class EndOfScreen : MonoBehaviour
         transform.position = new Vector3(74, transform.position.y, transform.position.z);
     }*/
 
-}
+//}
 
 }
