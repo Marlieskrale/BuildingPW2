@@ -13,7 +13,7 @@ public class PlayerDeath : MonoBehaviour
         PlayerDeathUI.SetActive(false);
     }
 
-    IEnumerator PlayerPause()
+    IEnumerator DeathPause()
     {
         Debug.Log("u ded");
         PlayerDeathUI.SetActive(true);
@@ -26,7 +26,7 @@ public class PlayerDeath : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            StartCoroutine(PlayerPause());
+            StartCoroutine(DeathPause());
         }
     }
 
